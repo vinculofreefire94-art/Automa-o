@@ -4,12 +4,8 @@ LABEL maintainer="BTC Signal Bot"
 LABEL description="Profissional BTC Trading Signal Bot — BTC/EUR, BTC/USD, BTC/USDC"
 
 # Sistema
-RUN apt-get update && apt-get install -y \
-    gcc \
-    libfreetype6-dev \
-    libpng-dev \
-    fonts-dejavu-core \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y gcc git libfreetype6-dev libpng-dev fonts-dejavu-core && rm -rf /var/lib/apt/lists/*
+
 
 WORKDIR /app
 
