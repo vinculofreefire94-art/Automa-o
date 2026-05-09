@@ -1,0 +1,15 @@
+ccxt==4.3.89
+pandas==2.2.2
+numpy==1.26.4
+pandas-ta==0.3.14b
+matplotlib==3.9.0
+matplotlib-venn==0.11.10
+mplfinance==0.12.10b0
+python-telegram-bot==21.3
+python-dotenv==1.0.1
+APScheduler==3.10.4
+aiohttp==3.9.5
+Pillow==10.3.0
+requests==2.32.3
+scipy==1.13.1
+seaborn==0.13.2

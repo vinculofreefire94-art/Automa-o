@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  btc-signal-bot:
+    build: .
+    container_name: btc_signal_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./bot.log:/app/bot.log
+    environment:
+      - TZ=UTC
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
