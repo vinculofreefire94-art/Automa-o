@@ -1,1 +1,4 @@
-pandas-ta==0.3.14b0 --index-url https://pypi.org/simple/
+ccxt==4.3.89
+pandas==2.2.2
+numpy==1.26.4
+pandas-ta @ git+https://github.com/twopirllc/pandas-ta.git@development
