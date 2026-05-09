@@ -4,5 +4,5 @@ numpy>=2.0.0
 pandas-ta-classic
 apscheduler
 python-dotenv
-
-
+python-telegram-bot
+matplotlib
