@@ -11,7 +11,8 @@ WORKDIR /app
 
 # Dependências Python
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install https://github.com/twopirllc/pandas-ta/archive/refs/heads/development.zip
+
 
 # Código
 COPY . .
